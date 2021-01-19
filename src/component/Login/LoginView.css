@@ -1,0 +1,7 @@
+.bgImg{
+    position: absolute;
+    width: 1778px;
+    height: 1000px;
+    top: 0px;
+    left: calc(50% - 889px);
+}

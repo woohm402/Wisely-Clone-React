@@ -1,0 +1,41 @@
+.header {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.logoLink {
+    line-height: 88px;
+    height: 88px;
+}
+
+.menus {
+    display: flex;
+    height: 88px;
+    line-height: 88px;
+    justify-content: space-between;
+}
+
+.myMenu {
+    display: flex;
+    height: 88px;
+    line-height: 88px;
+    justify-content: space-between;
+}
+
+.menuContent {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.myContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

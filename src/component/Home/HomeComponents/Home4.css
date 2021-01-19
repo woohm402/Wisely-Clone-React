@@ -1,0 +1,12 @@
+.section4 {
+    width: 100%;
+    display: flex;
+}
+
+.section4 div {
+    width: 50%;
+}
+
+.section4 img {
+    width: 50%;
+}

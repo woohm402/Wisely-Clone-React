@@ -1,0 +1,18 @@
+.section2 {
+    background-image: url('../../../assets/Home/home_gift_set.png');
+    height: 860px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.s2HomeButton {
+    height: 60px;
+    width: 180px;
+    background-color: #0055b8;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}

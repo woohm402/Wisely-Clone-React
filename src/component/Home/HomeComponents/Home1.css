@@ -1,0 +1,36 @@
+.section1 {
+    background-image: url('../../../assets/Home/home_background.png');
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding-top: 150px;
+}
+
+.s1HomeButton {
+    height: 60px;
+    width: 180px;
+    background-color: #0055b8;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.section1 p {
+    text-align: center;
+    font-size: 2.4em;
+}
+
+#s1p1 {
+    font-weight: lighter;
+}
+
+#s1p3 {
+    font-size: 1em;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

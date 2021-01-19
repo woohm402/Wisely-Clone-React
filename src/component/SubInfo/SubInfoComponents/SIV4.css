@@ -1,0 +1,68 @@
+.siv4 {
+    height: 660px;
+    background-color: #fafafa;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.siv4_left, .siv4_right {
+    height: 660px;
+    width: 50%;
+    position: relative;
+}
+
+.siv4_sb_cover {
+    width: 420px;
+    position: absolute;
+    left: calc(50% - 110px);
+    bottom: 110px;
+    height: '550px';
+    overflow: hidden;
+}
+
+.siv4_sb_razor {
+    position: absolute;
+    left: calc(50% - 110px);
+    top: 120px;
+    height: 416px;
+    width: 420px;
+}
+
+.siv4_sb_bubble {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;            
+    width: 420px;
+    overflow: hidden;
+}
+
+#s4p1, #s4p2 {
+    font-size: 2.5em;
+    position: absolute;
+    left: 15%;
+}
+
+#s4p1 {
+    top: 250px;
+}
+
+#s4p2 {
+    top: 300px;
+}
+
+#s4p3, #s4p4 {
+    font-size: 0.8em;
+    position: absolute;
+    left: 15%;
+}
+
+#s4p3 {
+    top: 400px;
+}
+
+#s4p4 {
+    top: 420px;
+}

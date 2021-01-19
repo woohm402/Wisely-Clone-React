@@ -1,0 +1,127 @@
+/* entire section */
+.siv5 {
+    height: 2035px;
+    background-color: #1e314a;
+    display: flex;
+}
+
+/* left section */
+.siv5_left {
+    height: 2035px;
+    width: 50%;
+    position: relative;
+}
+
+.li {
+    height: 602px;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.rel {
+    width: 50vw;
+}
+
+.fix {
+    position: fixed;
+    width: 50%;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.li1.rel {
+    position: absolute;
+    top: 0px;
+}
+
+.li3.rel {
+    position: absolute;
+    bottom: 0px;
+}
+
+.li1 {
+    background-image: url('https://wiselyshave-cdn.s3.amazonaws.com/assets/images/razorDesignStory/razor_design_story_1.png');
+}
+
+.li2 {
+    background-image: url('https://wiselyshave-cdn.s3.amazonaws.com/assets/images/razorDesignStory/razor_design_story_2.png');
+}
+
+.li3 {
+    background-image: url('https://wiselyshave-cdn.s3.amazonaws.com/assets/images/razorDesignStory/razor_design_story_3.png');
+}
+
+/* right section */
+.siv5_right {
+    height: 1319px;
+    padding-left: 7.7%;
+    margin-top: 358px;
+    margin-bottom: 358px;
+    width: 42.3%;
+    position: relative;
+}
+
+.rs {
+    padding-top: 0px;
+    position: relative;
+}
+
+.rs1 {
+    height: 280px;
+    margin-bottom: 240px;
+}
+
+.rs2 {
+    height: 280px;
+    margin-bottom: 240px;
+}
+
+.rs3 {
+    height: 280px;
+}
+
+p.title {
+    font-size: 2.3em;
+}
+
+.leftCircle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -5%;
+}
+
+.leftCircle.active {
+    background-color: white;
+}
+
+.leftCircle.inactive {
+    background-color: #888888;
+}
+
+.leftBar {
+    width: 1px;
+    height: 400px;
+    position: absolute;
+    left: calc( -5% + 7px );
+    top: -30px;
+}
+
+.leftBar.active {
+    background-color: #888888;
+}
+
+.leftBar.inactive {
+    background-color: #444444;
+}
+
+section.active {
+    color: white;
+}
+
+section.inactive {
+    color: #888888;
+}

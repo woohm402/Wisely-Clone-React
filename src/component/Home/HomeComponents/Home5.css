@@ -1,0 +1,26 @@
+.section5 {
+    height: 686px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.section5 img {
+    height: 255px;
+    width: 255px;
+}
+
+.shaves {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.homeButton {
+    height: 60px;
+    width: 284px;
+    background-color: #0055b8;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
